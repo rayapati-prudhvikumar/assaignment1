@@ -39,12 +39,12 @@ for(var i=0;i<5;i++)
 document.writeln("---------------------------------------------------"+"<br>");
 document.writeln("SORT BY TOTAL"+"<br>");
 document.writeln("NAME \t\tTOTAL \t\t AVERAGE"+"<br>");
-arr.sort(function(a,b){return a.total-b.total;});
+arr.sort(function(a,b){return b.total-a.total;});
 display();
 document.writeln("---------------------------------------------------"+"<br>");
 document.writeln("SORT BY average"+"<br>");
 document.writeln("NAME \t\tTOTAL \t\t AVERAGE"+"<br>");
-arr.sort(function(a,b){return a.average-b.average;});
+arr.sort(function(a,b){return b.average-a.average;});
 display();
 
 
